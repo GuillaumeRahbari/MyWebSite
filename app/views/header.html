@@ -1,0 +1,14 @@
+<div class="container">
+  <img class="profile-image img-responsive pull-left" ng-src="/assets/images/profile.png" alt="Rahbari Guillaume" />
+  <div class="profile-content pull-left">
+    <h1 class="name">{{header.name}}</h1>
+    <h2 class="desc">{{header.profession}}</h2>
+    <ul class="social list-inline">
+      <li ng-repeat="social in header.reseauxSociaux">
+        <a href="{{social.reseau}}" target="_blank"><i class="{{social.icon}}"></i></a>
+      </li>
+    </ul>
+  </div><!--//profile-->
+  <a class="btn btn-cta-secondary pull-right" href="{{header.pdf.lien}}" target="_blank"><i class="{{header.pdf.icon}}"></i>{{header.pdf.texte}}</a>
+  <a class="btn btn-cta-primary pull-right" href="{{header.mail.lien}}" target="_blank"><i class="{{header.mail.icon}}"></i>{{header.mail.texte}}</a>
+</div><!--//container-->

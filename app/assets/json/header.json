@@ -1,0 +1,35 @@
+{
+  "name" : "Rahbari Guillaume",
+
+  "profession" : "Student in Computer Science",
+
+  "reseauxSociaux" : [
+    {
+      "reseau" : "https://www.facebook.com/guillaume.rahbari",
+      "icon" : "fa fa-facebook"
+    },
+    {
+      "reseau" : "https://twitter.com/GuillaumeRahbar",
+      "icon" : "fa fa-twitter"
+    },
+    {
+      "reseau" : "https://plus.google.com/u/0/116090881926012543070/posts",
+      "icon" : "fa fa-google-plus"
+    },
+    {
+      "reseau" : "https://www.linkedin.com/profile/view?id=387731720&trk=spm_pic",
+      "icon" : "fa fa-linkedin"
+    }
+  ],
+
+  "pdf" : {
+      "lien" : "assets/Resume.pdf",
+      "icon" : "fa fa-file-pdf-o",
+      "texte" : " PDF Version"
+  },
+  "mail" : {
+      "lien" : "mailto:guillaume.rahbari@gmail.com?subject=Offer",
+      "icon" : "fa fa-paper-plane",
+      "texte" : " Contact Me"
+  }
+}
