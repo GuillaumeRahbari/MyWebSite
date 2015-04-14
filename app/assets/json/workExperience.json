@@ -1,0 +1,31 @@
+{
+  "items" : [
+    {
+      "title" : "Job",
+      "lien" : "http://www.beautyred-spa.com/",
+      "nom" : "Beauty Red Spa",
+      "date" : "April 2015",
+      "detail" : "Development of a website for the company Beauty Red Spa (specialized in body care)."
+    },
+    {
+      "title" : "Free time",
+      "lien" : "http://www.myWebsite.com/",
+      "nom" : "MyWebsite",
+      "date" : "March 2015",
+      "detail" : "Development of my personal website for my resume online."
+    },
+    {
+      "title" : "School project",
+      "nom" : "Polymap",
+      "date" : "January 2015",
+      "detail" : "Development of an android application: interactive map to direct students and teachers in the campus."
+    },
+    {
+      "title" : "Part time job",
+      "lien" : "http://www.coraud.com/",
+      "nom" : "Coraud",
+      "date" : "August 2012 - September 2012",
+      "detail" : "I managed a project from development to production."
+    }
+  ]
+}
