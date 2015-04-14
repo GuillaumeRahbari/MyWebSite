@@ -2,19 +2,32 @@
   <h2 class="heading">Languages</h2>
   <div class="content">
     <ul class="list-unstyled">
-      <li class="item">
-        <span class="title"><strong>French:</strong></span>
-        <span class="level">Mother tongue <br class="visible-md visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-      </li><!--//item-->
-      <li class="item">
-        <span class="title"><strong>English:</strong></span>
-        <span class="level">Fluent <br class="visible-md visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i><i class="fa fa-star-half"></i></span>
-        <h4 class="information">T.O.E.I.C® – score 870/990</h4>
-      </li><!--//item-->
-      <li class="item">
-        <span class="title"><strong>Spanish:</strong></span>
-        <span class="level">Working knowledge <br class="visible-md visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span>
-      </li><!--//item-->
+      <li class="item" ng-repeat="item in languages.items" ng-switch="item.title">
+        <span class="title"><strong>{{item.title}}:</strong></span>
+        <span class="level">{{item.level}}
+          <br class="visible-md visible-xs"/>
+          <span ng-switch-when="French">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </span>
+          <span ng-switch-when="English">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </span>
+          <span ng-switch-when="Spanish">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </span>
+          <h4 class="information">{{item.info}}</h4>
+        </span>
+      </li>
     </ul>
   </div><!--//content-->
 </div><!--//section-inner-->
