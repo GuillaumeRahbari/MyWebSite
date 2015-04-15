@@ -12,11 +12,11 @@
             <img class="img-responsive project-image" ng-src="{{item.src}}" alt="{{item.alt}}" />
           </a>
           <div class="desc col-lg-7 col-md-7 col-sm-7 col-xs-7">
-            <h3 class="level-title">{{item.alt}}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Level">{{item.level}}</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="{{item.pourcentage}}%">
-              </div>
-            </div><!--//level-bar-->
+            <h3 class="level-title">{{item.alt}}<span my-tooltip class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Level">{{item.level}}</span></h3>
+              <div class="level-bar">
+                <div my-progressbar class="level-bar-inner">
+                </div>
+              </div><!--//level-bar-->
           </div><!--//desc-->
         </div><!--//item-->
       </span>
@@ -27,7 +27,7 @@
           <span ng-repeat="item in skills.skillOther">
             <h3 class="level-title">
               {{item.title}}
-              <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Level">({{item.level}})</span>
+              <span my-tooltip class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Level">({{item.level}})</span>
             </h3>
           </span>
         </div><!--//item-->
