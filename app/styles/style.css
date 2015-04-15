@@ -544,3 +544,8 @@ iframe {
     width: 1360px;
   }
 }
+
+/************ Bootstrap surcharge ***************/
+.tooltip {
+  font-weight: inherit;
+}
