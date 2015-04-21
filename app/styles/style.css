@@ -361,16 +361,7 @@ iframe {
   margin-top: 0;
   margin-bottom: 10px;
 }
-.skills .skillset .level-title .level-label {
-  color: #ccd1d6;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Lato", arial, sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.skills .skillset .level-title + .level-label2 {
+.skills .skillset .level-title + .level-label {
   color: #ccd1d6;
   font-size: 14px;
   font-weight: 400;
@@ -543,7 +534,7 @@ iframe {
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .skills .skillset .level-title + .level-label2 {
+  .skills .skillset .level-title + .level-label {
     float: right;
   }
 }
@@ -558,5 +549,5 @@ iframe {
 
 /************ Bootstrap surcharge ***************/
 .tooltip {
-  font-weight: inherit;
+  font-weight: bold;
 }
