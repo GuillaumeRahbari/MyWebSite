@@ -2,39 +2,28 @@
   "skillSet" : [
     {
       "src" : "assets/images/programmingLanguages/Java.png",
-      "alt" : "Java",
-      "level" : "Advanced",
-      "pourcentage" : "77"
+      "alt" : "Java, JavaEE (EJB, Servlet, JSF, JSP, JPA)",
+      "pourcentage" : "80"
     },
     {
       "src" : "assets/images/programmingLanguages/cpp.png",
       "alt" : "C & C++",
-      "level" : "Intermediate",
       "pourcentage" : "60"
+    },
+    {
+      "src" : "assets/images/programmingLanguages/js.png",
+      "alt" : "Javascript (AngularJS)",
+      "pourcentage" : "50"
+    },
+    {
+      "src" : "assets/images/programmingLanguages/css.png",
+      "alt" : "CSS 3 (Boostrap)",
+      "pourcentage" : "82"
     },
     {
       "src" : "assets/images/programmingLanguages/html.png",
       "alt" : "HTML 5",
-      "level" : "Advanced",
       "pourcentage" : "90"
-    },
-    {
-      "src" : "assets/images/programmingLanguages/css.png",
-      "alt" : "CSS 3",
-      "level" : "Advanced",
-      "pourcentage" : "82"
-    },
-    {
-      "src" : "assets/images/programmingLanguages/sql.png",
-      "alt" : "SQL",
-      "level" : "Intermediate",
-      "pourcentage" : "50"
-    },
-    {
-      "src" : "assets/images/programmingLanguages/php.png",
-      "alt" : "PHP",
-      "level" : "Intermediate",
-      "pourcentage" : "50"
     }
   ],
 
@@ -44,11 +33,11 @@
       "level" : "Advanced"
     },
     {
-      "title" : "Python, Javascript, SQL, AngularJS, PHP, C#, Grunt, Sonar, Yeo-man, Bower, Windows",
+      "title" : "Python, SQL, PHP, C#, Grunt, Sonar, Yeo-man, Bower, Windows",
       "level" : "Intermediate"
     },
     {
-      "title" : "JavaEE, OpenGL, OpenCV",
+      "title" : "OpenGL, OpenCV",
       "level" : "Beginner"
     }
   ]
